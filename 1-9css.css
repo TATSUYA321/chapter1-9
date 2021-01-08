@@ -1,0 +1,61 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.main {
+  width: 900px;
+  height: 400px;
+  background-color: red;
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+  margin: 0 auto;
+}
+
+.main-visual {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  background-color: #eeeeee;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #ff9a4b;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+
+.main-top {
+  width: 280px;
+  height: 150px;
+  margin: 10px 10px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.main-visual-text {
+  text-align: center;
+}
+
+.title {
+  margin: 15px 0px 5px 5px;
+  text-align: left;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
